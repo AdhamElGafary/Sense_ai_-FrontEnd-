@@ -1,0 +1,37 @@
+flutter_native_splash:
+  # This package generates native code to customize Flutter's default splash screen
+  # with background color and splash image.
+  # Customize the parameters below, and run the following command:
+  # flutter pub run flutter_native_splash:create
+
+  # Use image as the center logo over a colored background (better for mobile)
+  image: "assets/sense.png"
+
+  # Background color for the splash screen
+  color: "#050133"
+
+  # Splash screen background color in dark mode
+  color_dark: "#050133"
+
+  # Android 12+ specific settings
+  android_12:
+    # Image to show in center of screen
+    image: "assets/sense.png"
+
+    # Splash screen background color
+    color: "#FFFFFF"
+
+    # Icon background color
+    icon_background_color: "#FFFFFF"
+
+  # Status bar settings
+  android_gravity: center
+  ios_content_mode: center
+
+  # Make splash screen cover the full screen (better UX)
+  fullscreen: true
+
+  # Platform specific settings
+  android: true
+  ios: true
+  web: false
